@@ -1,5 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer components {
+
+#MyCard {
+  @apply min-h-[20rem];
+}
+#MyCard li {
+  @apply max-sm:h-[2.4rem] h-[2.7rem]  aspect-square grid place-items-center  rounded-full hover:bg-PrimaryOrange cursor-pointer hover:text-white;
+}
+
+#MyCard button {
+  @apply bg-PrimaryOrange text-white rounded-full w-full grid place-items-center h-[2.5rem] text-[0.9rem] hover:bg-white hover:text-PrimaryOrange;
 }

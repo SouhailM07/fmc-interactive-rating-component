@@ -7,3 +7,11 @@ body {
 * {
   transition: 0.3s;
 }
+
+p {
+  @apply max-sm:text-[0.7rem]  text-[0.85rem] text-NeutralLightGrey;
+}
+
+article {
+  @apply bg-NeutralVeryDarkBlue max-sm:w-[90%] rounded-xl  w-[23rem];
+}

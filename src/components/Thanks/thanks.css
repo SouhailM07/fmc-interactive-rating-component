@@ -3,3 +3,6 @@
 @tailwind utilities;
 @layer components {
 }
+#Thanks__rate {
+  @apply text-PrimaryOrange !my-[1.5rem] bg-NeutralDarkBlue rounded-full w-[11rem] text-[0.8rem] mx-auto h-[2rem] grid place-items-center font-light;
+}

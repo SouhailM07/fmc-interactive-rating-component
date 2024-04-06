@@ -3,3 +3,6 @@
 @tailwind utilities;
 @layer components {
 }
+main {
+  @apply bg-black min-h-screen text-white grid place-items-center;
+}
